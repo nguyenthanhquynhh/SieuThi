@@ -1,0 +1,101 @@
+.categorys ul{
+    list-style: none;
+    
+}
+.categorys li{
+    position: relative;
+}
+.categorys a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #000;
+}
+.categorys a:hover {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #d7a059;
+}
+.categorys ul ul {
+    display: none;
+  }
+  .categorys li:hover > ul {
+    
+    display: block;
+  }
+
+/* products */
+.card{
+    margin-top: 10px;
+}
+.product_item :hover{
+    top: 5px;
+}
+
+.roww{
+    margin-top: 40px;
+    display: flex;
+    margin-right: 40px;
+}
+
+.categorys{
+    margin-top: 25px;
+    margin-left: 5px;
+    box-shadow: 0px 0px 4px rgb(0,0,0,0.3);
+    height: 466px;
+}
+
+.categorys h4{
+    margin-top: 25px;
+}
+
+.products{
+    margin-top: 25px;
+    margin-left: 15px;
+    box-shadow: 0px 0px 4px rgb(0,0,0,0.3);
+    height: 820px;
+}
+.rowsp a h4{
+    margin-left: 50px;
+}
+
+.input-group {
+    margin-left: 35px;
+}
+
+.card-img-top{
+    height: 50%;
+}
+
+.card-body{
+    height: 50%;
+}
+
+.card{
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px rgb(0,0,0,0.3);
+}
+
+.card-body input{
+    width: 100px;
+    height: 34px;
+    border: none;
+    cursor: pointer;
+    background: #648F38;
+    margin-left: 10px;
+    border-radius: 3px;
+    
+}
+
+.card-body input:hover{
+    background-color: #8BC34A;
+}
+
+.card-body h5{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 350px;
+    max-height: 65px;
+    height: 60%;
+}

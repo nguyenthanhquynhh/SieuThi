@@ -1,0 +1,96 @@
+/* Thiết lập font chữ và màu sắc cho toàn bộ trang */
+body {
+	font-family: Arial, sans-serif;
+	color: #333;
+	background-color: #f8f8f8;
+}
+
+.container_admin{
+    margin-top: 15px;
+}
+.container_admin{
+    display: flex;
+}
+
+.wrapper_content{
+    margin-left: 15px;
+    width: 1130px;
+	padding: 10px;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Thiết lập kích thước và khoảng cách của sidebar */
+.sidebar {
+	width: 250px;
+	padding: 10px;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.sidebar h2{
+    align-items: center;
+}
+.sidebar h2 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 60px;
+    border-radius: 50px;
+}
+
+/* Thiết lập kiểu dáng cho menu trong sidebar */
+.sidebar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar li {
+	margin-bottom: 10px;
+}
+
+.sidebar a {
+	display: block;
+	padding: 5px 10px;
+	color: #666;
+	text-decoration: none;
+	border-left: 3px solid transparent;
+	transition: border-left-color 0.2s ease-in-out;
+}
+
+.sidebar a:hover {
+	border-left-color: #007bff;
+}
+
+/* Thiết lập kiểu dáng cho phần nội dung */
+.content {
+	margin-left: 200px;
+	padding: 20px;
+}
+
+.content h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.content p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.stats {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	flex-basis: calc(33.33% - 20px);
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.card:last-child {
+	margin-right: 0;
+}

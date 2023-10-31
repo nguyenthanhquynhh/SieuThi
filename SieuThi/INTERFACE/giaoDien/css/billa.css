@@ -1,0 +1,58 @@
+.chiTietDonHang{
+    width: 100%;
+}
+table{
+    width: 100%;
+}
+
+.borders{
+    border: 1px solid #CFCFCF;
+}
+.btnDatHang button{
+    margin: 20px;
+    border-radius: 3px;
+    width: 173px;
+    padding: 7px 7px;
+    background: #8BC34A;
+    border: none;
+    color: white;
+    font-size: large;
+}
+.btnDatHang button:hover{
+    background-color: #def1c8;
+}
+.thongtinkhachhang, th, td{
+    border: 1px solid #CFCFCF;  
+    border-collapse: collapse;  
+}
+
+.btnDatHangg button{
+    width: 320px;
+    padding: 13px;
+    background: white;
+    box-shadow: 0 0 5px #000;
+    background: white;
+    border: none;
+    margin-left: 540px;
+    font-size: large;
+}
+
+.container {
+    height: 535px;
+    width: 100%;
+    box-shadow: 0 0 5px #000;
+    margin-top: 25px;
+}
+
+
+
+.don_hang{
+    margin: 100px 20px;
+    width: 30%;
+    border: 2px solid #CFCFCF;
+    float: none;
+}
+.don_hang h4{
+    margin: 20px 27%;
+
+}

@@ -1,0 +1,100 @@
+
+.head{
+    height: 100px;
+    display: flex;
+    padding-left: 20px;
+}
+.headLeft{
+    padding-left: 10px;
+}
+.head .headLeft a{
+    text-decoration: none;
+    padding-left: 40px;
+    color: black;
+}
+.head .headLeft a:hover{
+    color:rgb(9, 237, 74);
+}
+.headRight{
+    padding: 4% 0 0 30%;
+}
+.head .headRight a{
+    text-decoration: none;
+    padding-left: 40px; 
+    color: black;
+}
+.head .headRight a:hover{
+    color: rgb(9, 237, 74);
+}
+.content{   
+    display: flex;
+    margin-top: 3%;
+    background-color: #F8F6F3;
+
+}
+
+.check_out{
+    margin: 20px 100px;
+    
+}
+.content h2{
+    padding-top: 70px;
+    padding-left: 100px;
+}
+.hr_out{
+    height: 3px;
+    margin: 20px 100px;
+    background:rgb(9, 237, 74);
+}
+.check_out h4{
+    padding-top: 40px;
+}
+.don_hang{
+    margin: 100px 20px;
+    width: 30%;
+    border: 3px solid #CFCFCF;
+    float: none;
+}
+.don_hang h4{
+    margin: 20px 27%;
+}
+
+#viettelPay{
+    margin-left: 23px;
+}
+
+#momo{
+    margin-left: 23px;
+}
+
+/*thanh toan*/
+.form_thanh_toan{
+    margin: 25px;
+}
+#text{
+    width: 90%;
+    background-color: rgb(246, 246, 246);
+    border-radius: 10px;
+    margin: 0 20px;
+}
+.dat_don_hang input{
+    width: 450px;
+    background-color: #8BC34A;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 30px 20px;
+    color: white;
+    border: none;
+    font-size: large;
+}
+
+.dat_don_hang input:hover{
+    background-color: #cfe7b3;
+}
+
+.info_input input{
+    padding: 7px 5px;
+    border: 1px solid #CFCFCF;
+    border-radius: 3px;
+}
+
